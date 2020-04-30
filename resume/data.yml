@@ -1,93 +1,61 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Yann
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Bouzonie
+about: Issu d'une école d'ingénieurs française, mes capacités d'analyse et de réalisation
+se mettent au service de l'industrie des systèmes d'information. 
+Je suis actuellement concentré sur l'automatisation des processus d'intégration, de sécurisation et de déploiement d'applications
+position: Spécialiste des Systèmes d'Information
 
 birth:
-  year: 1990
-  location: New York
+  year: 1989
+  location: Lausanne
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Banque Cantonale Vaudoise
+  position: Consultant
+  timeperiod: depuis Octobre 2018
+  description: Automatisation packaging applications Windows (chocolatey + Docker Windows Container + Gitlab CI), 
+  Conteneurisation applications metiers BCV (Docker Linux Container + Gitlab CI ),
+  Plateforme de Conteneurs pour applications metiers BCV (HashiCorp)(Vault + Consul + Nomad)
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Ville de Lausanne
+  position: Responsable Sécurité Opérationnelle
+  timeperiod: Août 2017 - Septembre 2018
+  description: Administration AV / NGAV ( Kaspersky AV / Falcon Crowdstrike), Reponse a incident (The Hive + MISP)
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Ville de Lausanne
+  position: Ingénierie Poste de Travail
+  timeperiod: Août 2016 - Août 2017
+  description: Administration parc Windows (~2500 devices) (SCCM + Nexthink) - Support applicatif niveau 2 / 3
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor Sciences de l'Information
+  description: ENSEEIHT - Toulouse
+
+- degree: Classe Preparatoire aux grandes Ecoles (PCSI / PSI), 
+  description: Lycee Gay Lussac - Limoges
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
+- name: Powershell
+  level: 100
+- name: Bash
   level: 70
+- name: Python
+  level: 60
+- name: CI / CD
+  level: 80
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+  level: 80
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: ybouzonie@protonmail.com
+  phone: +41 76 803 89 75
+  city: Lausanne
+  github: datYori
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: fr
 `
