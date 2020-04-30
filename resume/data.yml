@@ -3,10 +3,10 @@ name:
   first: Yann
   middle:
   last: Bouzonie
-about: Issu d''une école d''ingénieurs française, mes capacités d'analyse et de réalisation
-se mettent au service de l'industrie des systèmes d'information. 
-Je suis actuellement concentré sur l''automatisation des processus d''intégration, de sécurisation et de déploiement d'applications
-position: Spécialiste des Systèmes d'Information
+  about: Issu d''une école d''ingénieurs française, mes capacités d''analyse et de réalisation
+         se mettent au service de l''industrie des systèmes d''information. 
+         Je suis actuellement concentré sur l''automatisation des processus d''intégration, de sécurisation et de déploiement d''applications
+  position: Spécialiste des Systèmes d''Information
 
 birth:
   year: 1989
@@ -32,7 +32,7 @@ experience:
 
 education:
 
-- degree: Bachelor Sciences de l'Information
+- degree: Bachelor Sciences de l''Information
   description: ENSEEIHT - Toulouse
 
 - degree: Classe Preparatoire aux grandes Ecoles (PCSI / PSI), 
@@ -57,5 +57,5 @@ contact:
   city: Lausanne
   github: datYori
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: fr
 `
