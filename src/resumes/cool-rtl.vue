@@ -3,7 +3,7 @@
     <div class="banner">
       <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
       <div class="banner__position">{{ person.position }}</div>
-      <div class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
+      <div class="banner__location">{{ lang.born }} {{person.birth.year}} {{person.birth.location}}</div>
     </div>
 
     <div class="content">
@@ -26,8 +26,13 @@
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
 
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <div class="section-content__period">{{ experience.timeperiod }}</div>
+              <span
+                class="section-content__text--light"
+                v-for="(activity, index) in experience.activities" :key="index">
+                {{ activity.text }}
+                <div class="section-content__tech">{{activity.technos}}</div>
+              </span>
             </a>
           </div>
         </div>
@@ -332,6 +337,16 @@ a {
     &--light {
       font-size: 12px;
     }
+  }
+  &__tech {
+    display: block;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  &__period{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 2px;
   }
 
   &__plain {
