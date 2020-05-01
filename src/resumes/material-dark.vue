@@ -13,12 +13,12 @@
       </div>
       <div class="text">
         <ul>
-          <li> {{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</li>
+          <li> {{ lang.born }} {{person.birth.year}} </li>
         </ul>
       </div>
     </div>
 
-    <div class="item">
+   <div class="item">
       <div class="icon">
         <i class="material-icons">location_city</i>
       </div>
@@ -117,9 +117,12 @@
         <div class="block-helper"></div>
         <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
           <div class="subheadline">{{experience.timeperiod}}</div>
+          <div v-for="activity in experience.activities" :key="activity.text">
           <p class="info">
-            {{experience.description}}
-          </p>  
+            {{activity.text}}
+            </p>
+            <div class="subheadline">{{activity.technos}}</div>
+          </div> 
       </a>
     </div>
     <div class="section-headline">{{ lang.education }}</div>
@@ -288,13 +291,13 @@ h4 {
   display:flex;
   flex-direction:column;
   .experience {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .about {
     display: block;
     margin-top:8px !important;
     font-weight:375;
-    font-size: 16px;
+    font-size: 14px;
     color:rgba(0,0,0,0.541176);
   }
   .block {
@@ -302,8 +305,8 @@ h4 {
     position:relative;
     background-color:#ffffff;
     padding:20px;
-    margin-top:5px;
-    margin-bottom:5px;
+    margin-top:4px;
+    margin-bottom:4px;
     display:inline-block;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
@@ -322,7 +325,7 @@ h4 {
       font-size:14px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
+      padding-top:10px;
     }
     .icon {
       width:16%;
@@ -394,7 +397,7 @@ h4 {
     background-position:center;
     position:relative;
     width:100%;
-    height:277px;
+    height:220px;
   }
   .item {
     width:100%;
