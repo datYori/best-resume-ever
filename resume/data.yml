@@ -3,10 +3,8 @@ name:
   first: Yann
   middle:
   last: Bouzonie
-about: Issu d'une école d'ingénieurs française, mes capacités d'analyse et de réalisation
-       se mettent au service de l'industrie des systèmes d'information.
-       Je suis actuellement concentré sur l'automatisation des processus d'intégration,
-       de sécurisation et de déploiement d'applications
+
+about: 
 position: Consultant IT
 
 birth:
@@ -15,33 +13,33 @@ birth:
 
 experience:
 - company: Banque Cantonale Vaudoise
-  position: Équipe DevOps
-  timeperiod: depuis Octobre 2018
+  position: DevOps Team
+  timeperiod: October 2018 - October 2020
   activities:
-    - text: Automatisation packaging applications Windows
+    - text: Windows packaging automation 
       technos: Powershell & chocolatey
-    - text: Conteneurisation applications metiers BCV
+    - text: Core Banking apps containerization
       technos : Docker & Gitlab CI
-    - text: Plateforme de Conteneurs pour applications metiers BCV
+    - text: Software factory and Container Plateform
       technos: (HashiCorp) Vault & Consul & Nomad
 
 - company: Ville de Lausanne
-  position: Responsable Sécurité Opérationnelle
-  timeperiod: Août 2017 - Septembre 2018
+  position: OPSEC Lead
+  timeperiod: August 2017 - September 2018
   activities:
-    - text: Administration AV / NGAV
+    - text: AV / NGAV Administration
       technos: (Kaspersky) AV & (Crowdstrike) Falcon
-    - text: Reponse à incident
+    - text: Incident Response
       technos: The Hive & Misp
 
 - company: Ville de Lausanne
-  position: Ingénierie Poste de Travail
-  timeperiod: Août 2016 - Août 2017
+  position: Endpoint Engineering
+  timeperiod: August 2016 - August 2017
   activities:
-    - text: Administration parc Windows (~2500 devices)
+    - text: Windows Workstations Administration Automation (~2500 devices)
       technos: SCCM & Nexthink
-    - text: Support Infrastructure Microsoft
-      technos: Active Directory
+    - text: Microsoft Infrastructure Lvl3 support
+      technos: Active Directory & Microsoft Server
 
 education:
 
@@ -58,7 +56,7 @@ skills:
 - name: Powershell
   level: 100
 - name: Bash
-  level: 70
+  level: 60
 - name: Python
   level: 60
 - name: CI / CD
@@ -66,7 +64,7 @@ skills:
 - name: Docker
   level: 70
 - name: Malware Analysis
-  level: 60
+  level: 70
 - name: Saltstack
   level: 40
 knowledge:
@@ -91,5 +89,5 @@ contact:
   website:
   github: datYori
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: fr
+lang: en
 `
