@@ -4,7 +4,7 @@ name:
   middle:
   last: Bouzonie
 
-about: 
+about:
 position: Consultant IT
 
 birth:
@@ -16,7 +16,7 @@ experience:
   position: DevOps Team
   timeperiod: October 2018 - October 2020
   activities:
-    - text: Windows packaging automation 
+    - text: Windows packaging automation
       technos: Powershell & chocolatey
     - text: Core Banking apps containerization
       technos : Docker & Gitlab CI
@@ -36,19 +36,19 @@ experience:
   position: Endpoint Engineering
   timeperiod: August 2016 - August 2017
   activities:
-    - text: Windows Workstations Administration Automation (~2500 devices)
+    - text: Windows Workstations Administration and Automation (~2500 devices)
       technos: SCCM & Nexthink
-    - text: Microsoft Infrastructure Lvl3 support
+    - text: Microsoft Infrastructure L3 support
       technos: Active Directory & Microsoft Server
 
 education:
 
 - degree: Bachelor Sciences de l'Information
-  timeperiod: Toulouse
-  description: ENSEEIHT
+  timeperiod: 2013 - 2014
+  description: ENSEEIHT (Toulouse)
 
 - degree: Classe Preparatoire aux grandes Ecoles
-  timeperiod: Limoges
+  timeperiod: 2011 - 2013
   description: PCSI & PSI Lycee Gay Lussac
 
 # skill level goes 0 to 100
